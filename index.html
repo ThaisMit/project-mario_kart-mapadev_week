@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/images/favicon.png" />
+    <title>Player's | Mario Kart</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header class="title">
+        <h1>Player Select</h1>
+      </header>
+
+      <div class="container">
+        <div class="character-big player-one">
+          <img
+            src="./src/images/mario-car.png"
+            alt="selected character player one"
+            id="character-player-one"
+          />
+          <div class="name">
+            <h2 id="name-player-one">Mario</h2>
+          </div>
+        </div>
+
+        <ul class="characteres-options">
+          <li class="character select" id="mario" data-name="Mario">
+            <span class="tag">1P</span>
+            <img src="./src/images/mario-player.png" alt="Character Mario" />
+          </li>
+
+          <li
+            class="character player-two-selected"
+            id="luigi"
+            data-name="Luigi"
+          >
+            <span class="tag">2P</span>
+            <img src="./src/images/luigi-player.png" alt="Character Luigi" />
+          </li>
+
+          <li class="character" id="peach" data-name="Peach">
+            <span class="tag">1P</span>
+            <img src="./src/images/peach-player.png" alt="Character Peach" />
+          </li>
+
+          <li class="character" id="daisy" data-name="Daisy">
+            <span class="tag">1P</span>
+            <img src="./src/images/daisy-player.png" alt="Character Daisy" />
+          </li>
+
+          <li class="character" id="yoshi" data-name="Yoshi">
+            <span class="tag">1P</span>
+            <img src="./src/images/yoshi-player.png" alt="Character Yoshi" />
+          </li>
+
+          <li class="character" id="toad" data-name="Toad">
+            <span class="tag">1P</span>
+            <img src="./src/images/toad-player.png" alt="Toad" />
+          </li>
+
+          <li class="character" id="bowser" data-name="Bowser">
+            <span class="tag">1P</span>
+            <img src="./src/images/bowser-player.png" alt="Character Bowser" />
+          </li>
+
+          <li class="character" id="wario" data-name="Wario">
+            <span class="tag">1P</span>
+            <img src="./src/images/wario-player.png" alt="Character Wario" />
+          </li>
+
+          <li class="character" id="waluigi" data-name="Waluigi">
+            <span class="tag">1P</span>
+            <img
+              src="./src/images/waluigi-player.png"
+              alt="Character Waluigi"
+            />
+          </li>
+        </ul>
+
+        <div class="character-big player-two">
+          <img
+            src="./src/images/luigi-car.png"
+            alt="selected character player two"
+            id="character-player-two"
+          />
+          <div class="name">
+            <h2>Luigi</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
