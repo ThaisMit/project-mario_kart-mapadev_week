@@ -1,4 +1,4 @@
-# <a href="https://mapadevweek.com/inscrever-org-mai-2022/">MapaDevWeek 🚗</a>
+# <a href="https://mapadevweek.com/inscrever-org-mai-2022/">MapaDevWeek</a>
 
 This project was made during MapaDevWeek, which is a program that
 teaches you how to assemble a small code system.
